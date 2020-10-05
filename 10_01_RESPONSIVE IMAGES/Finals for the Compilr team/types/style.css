@@ -1,0 +1,25 @@
+/* ************ */
+/* Main content */
+/* ************ */
+
+.main {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.main-title {
+    font-family: 'Lato', serif;
+}
+
+.progressive-image {
+    width: 266px;
+    margin: 0 auto;
+}
+
+        
+        
+        
+
