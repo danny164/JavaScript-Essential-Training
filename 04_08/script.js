@@ -3,7 +3,7 @@ function logScope(){
 
   // let localVar=2;
   if(localVar){
-  let   localVar= "I'm different!";
+    let localVar = "I'm different!";
   }
 
     console.log("logScope localVar =", localVar);

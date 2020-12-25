@@ -12,7 +12,8 @@ var course = {
 }
 
 console.log(course);
-
+course.updateViews(); // update views
+console.log(course);
 
 var x1 = new Object();    // A new Object object
 var x2 = new String();    // A new String object
