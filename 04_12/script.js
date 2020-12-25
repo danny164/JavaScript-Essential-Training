@@ -9,3 +9,5 @@ function doSomeMath() {
 var theResult = doSomeMath();
 
 console.log("The result: ", theResult);
+
+// https://developer.mozilla.org/vi/docs/Web/JavaScript/Closures
