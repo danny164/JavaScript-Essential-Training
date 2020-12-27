@@ -15,8 +15,11 @@ let secPosition = sec*360/60;
 
 function runTheClock() {
 
-    hrPosition = hrPosition+(3/360);
-    minPosition = minPosition+(6/60);
+    // the distance of one hour so 360 over 12, which is 30 over 3,600 seconds
+    hrPosition = hrPosition+(3/360); // (30/3600)
+    // one sixtieth of the degrees of the second hand.
+    minPosition = minPosition+(6/60); // (1/60)*6
+    // the clock face has 360 degrees then we divide 360 degrees by 60 seconds equals six degrees
     secPosition = secPosition+6;
 
     HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
