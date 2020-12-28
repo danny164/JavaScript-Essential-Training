@@ -27,11 +27,11 @@ function spellCheck() {
 
 // Start the timer:
 function start() {
-    let textEnterLength = testArea.value.length;
-    if (textEnterdLength === 0){
+    let textEnteredLength = testArea.value.length;
+    if (textEnteredLength === 0){
         setInterval(runTimer, 10) // 10 per 1000 miliseconds
     }
-    console.log(textEnterLength);
+    console.log(textEnteredLength);
 }
 
 // Reset everything:
