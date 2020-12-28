@@ -27,8 +27,9 @@ function spellCheck() {
 
 // Start the timer:
 function start() {
-    let textEnteredLength = testArea.value.length;
-    if (textEnteredLength === 0){
+    let textEnteredLength = testArea.value.length; // length này là độ dài của mảng
+    if (textEnteredLength === 0){ // Text đươc lưu theo mảng[h,e,l,l,o, ,w,o,r,l,d,!], -> array length = 12
+        // mỗi kí tự là 1 phần tử, phần tử đầu tiên nhập vào sẽ là mảng [0] = h
         setInterval(runTimer, 10) // 10 per 1000 miliseconds
     }
     console.log(textEnteredLength);
