@@ -9,9 +9,12 @@ function mouseCoordinates(e) {
     // Get X coordinate (distance from left viewport edge) via clientX property.
     // Take total window width, subtract current coordinate and width of circle.
     // Do the same for Y coordinate (distance from top viewport edge).
-    var horizontalPosition = windowWidth - e.clientX - 26;
-    var verticalPosition= windowHeight - e.clientY - 26;
+    var horizontalPosition = windowWidth - e.clientX - 50;
+    var verticalPosition= windowHeight - e.clientY - 50;
 
+    // Test
+    console.log("Window Width: " + windowWidth + " - " + e.clientX + " - 50");
+    console.log("Window Height: " + windowHeight + " - " + e.clientY + " - 50");
     // Set horizontal and vertical position.
     CIRCLE.style.left = horizontalPosition + 'px';
     CIRCLE.style.top = verticalPosition + 'px';

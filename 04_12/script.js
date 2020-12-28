@@ -20,4 +20,10 @@ function doSomeMath() {
 
 var theResult = doSomeMath();
 
+<<<<<<< HEAD
 console.log("The result: ", theResult());// vi kieu laf function
+=======
+console.log("The result: ", theResult);
+
+// https://developer.mozilla.org/vi/docs/Web/JavaScript/Closures
+>>>>>>> 804aeea28474b3e3c9127caad1df3be72f9c8a7b
