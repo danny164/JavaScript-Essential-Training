@@ -5,7 +5,8 @@ CTA.classList.remove("hide");
 ALERT.classList.add("hide");
 
 function reveal(e) {
-    e.preventDefault();
+    // This quite literally prevents the default behavior of the event object,
+    e.preventDefault(); // and in this case the event object is a clicked link.
     CTA.classList.toggle("hide");
     ALERT.classList.toggle("hide");
 }
