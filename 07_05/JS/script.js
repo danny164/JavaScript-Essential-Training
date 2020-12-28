@@ -10,5 +10,6 @@ function reveal(e) {
     ALERT.classList.toggle("hide");
 }
 
+// https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
 CTA.addEventListener('click', reveal, false);
 CTA.addEventListener('click', function(){console.log("The button was clicked!")}, false);
